@@ -73,7 +73,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    background-image: url('../img/img1.png');
+    background-image: url('IMG/img1.png');
     background-size: cover;
     background-position: -10%;
     border: solid 2px rgb(11, 20, 151);
@@ -84,7 +84,7 @@ a {
     width: 200px;
     height: 250px;
     border-radius: 20%;
-    background-image: url('../img/img2.jpeg');
+    background-image: url('IMG/img2.jpeg');
     background-size: 100%;
     background-position: 50% ;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ a {
     width: 250px;
     height: 250px;
     border-radius: 25%;
-    background-image: url('../img/img3.jpeg');
+    background-image: url('IMG/img3.jpeg');
     background-size: cover;
     background-position: -10%;
     border: solid 2px #ccc;
@@ -108,7 +108,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 5%;
-    background-image: url('../img/img4.jpeg');
+    background-image: url('IMG/img4.jpeg');
     background-size: cover;
     border: solid 2px rgb(255, 255, 255);
     margin: 25px auto;
@@ -118,7 +118,7 @@ a {
     width: 200px;
     height: 250px;
     border-radius: 5%;
-    background-image: url('../img/img5.jpeg');
+    background-image: url('IMG/img5.jpeg');
     background-size: cover;
     border: solid 2px rgb(255, 255, 255);
     margin: 25px auto;
@@ -128,7 +128,7 @@ a {
     width: 250px;
     height: 250px;
     border-radius: 15px;
-    background-image: url('../img/img6.jpeg');
+    background-image: url('IMG/img6.jpeg');
     background-size: cover;
     border: solid 2px #555;
     margin: 25px auto;
@@ -138,7 +138,7 @@ a {
     width: 200px;
     height: 350px;
     border-radius: 10px;
-    background-image: url('../img/img7.jpeg');
+    background-image: url('IMG/img7.jpeg');
     background-size: cover;
     border: solid 2px #ccc;
     margin: 25px auto;
@@ -148,7 +148,7 @@ a {
     width: 250px;
     height: 250px;
     border-radius: 200px;
-    background-image: url('../img/img8.png');
+    background-image: url('IMG/img8.png');
     background-size: cover;
     background-repeat: no-repeat;
     border: double 10px #ccc;
