@@ -1,0 +1,166 @@
+body, .container, .row, .col {
+    margin: 0;
+    padding: 0;
+}
+
+p { 
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color:rgb(231, 224, 224);
+}
+
+a { 
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#pg1, #pg2, #pg3, #pg4, #pg5, #pg6, #pg7, #pg8, #pg9 {
+    height: 110vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#pg1 {
+    height: 100vh;
+    background-color: #5BADC8;
+}
+
+#pg1 h1, #pg2 h1, #pg3 h1, #pg4 h1, #pg5 h1, #pg6 h1, #pg7 h1, #pg8 h1, #pg9 h1 {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    text-align: center;
+    font-size: 2em;
+}
+
+#pg2, #pg2 p {
+    background-color:#7F40BF;
+}
+
+#pg1 h1{font-family: 'Monofett', cursive;}
+
+#pg2 h1{
+    font-family: 'Mystery Quest', cursive; 
+    font-weight: 900; color: rgb(64, 196, 103);
+}
+
+#pg3 {background-color:#f55c7d;}
+
+#pg4 {background-color: #cf3838;}
+
+#pg5 {background-color:#136D99;}
+
+#pg6, #pg6 p {background-color: #84d679;}
+
+#pg7, #pg7 p {background-color: #ee9960;}
+
+#pg8 {background-color: #40BFB0;}
+
+#pg9 {
+    background-color: #333F99 ;
+}
+
+#pg8 h1 {font-family: 'Mystery Quest', cursive;}
+
+#pg9 h1{
+    font-family: 'Libre Barcode 128 Text', cursive; 
+    font-size: 600%; 
+    margin-top: 70%; 
+    color: rgb(236, 223, 223);
+}
+
+#pg1 figure {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    background-image: url('../img/img1.png');
+    background-size: cover;
+    background-position: -10%;
+    border: solid 2px rgb(11, 20, 151);
+    margin: 25px auto;
+}
+
+#pg2 figure {
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
+    background-image: url('../img/img2.jpeg');
+    background-size: 100%;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    border: solid 3px rgb(255, 255, 255);
+    margin: 25px auto;
+}
+
+
+#pg3 figure {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    background-image: url('../img/img3.jpeg');
+    background-size: cover;
+    background-position: -10%;
+    border: solid 2px #ccc;
+    margin: 25px auto;
+}
+
+#pg4 figure {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    background-image: url('../img/img4.jpeg');
+    background-size: cover;
+    border: solid 2px rgb(255, 255, 255);
+    margin: 25px auto;
+}
+
+#pg5 figure {
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+    background-image: url('../img/img5.jpeg');
+    background-size: cover;
+    border: solid 2px rgb(255, 255, 255);
+    margin: 25px auto;
+}
+
+#pg6 figure {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url('../img/img6.jpeg');
+    background-size: cover;
+    border: solid 2px #555;
+    margin: 25px auto;
+}
+
+#pg7 figure {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url('../img/img7.jpeg');
+    background-size: cover;
+    border: solid 2px #ccc;
+    margin: 25px auto;
+}
+
+#pg8 figure {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-image: url('../img/img8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: double 10px #ccc;
+    margin: 25px auto;
+}
+
+#pg9 figure {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url('../img/amoraProgramadora.jpeg');
+    background-size: cover;
+    border: solid 2px #ccc;
+    margin: 25px auto;
+}
