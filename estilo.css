@@ -23,7 +23,7 @@ a {
 
 #pg1 {
     height: 100vh;
-    background-color: #5BADC8;
+    background-color: #F29E4C;
 }
 
 #pg1 h1, #pg2 h1, #pg3 h1, #pg4 h1, #pg5 h1, #pg6 h1, #pg7 h1, #pg8 h1, #pg9 h1 {
@@ -34,31 +34,31 @@ a {
 }
 
 #pg2, #pg2 p {
-    background-color:#7F40BF;
+    background-color:#F1C453;
 }
 
-#pg1 h1{font-family: 'Monofett', cursive;}
+#pg1 h1{font-family: 'Flavors', cursive;}
 
 #pg2 h1{
     font-family: 'Mystery Quest', cursive; 
-    font-weight: 900; color: rgb(64, 196, 103);
+    font-weight: 900; color: rgb(64, 117, 196);
 }
 
-#pg3 {background-color:#f55c7d;}
+#pg3 {background-color:#EF476F;}
 
-#pg4 {background-color: #cf3838;}
+#pg4 {background-color: #D1105A;}
 
-#pg5 {background-color:#136D99;}
+#pg5 {background-color:#54478C;}
 
-#pg6, #pg6 p {background-color: #84d679;}
+#pg6, #pg6 p {background-color: #2C699A;}
 
-#pg7, #pg7 p {background-color: #ee9960;}
+#pg7, #pg7 p {background-color: #048BA8;}
 
-#pg8 {background-color: #40BFB0;}
+#pg8 {background-color: #0DB39E;}
 
-#pg9 {
-    background-color: #333F99 ;
-}
+#pg9 {background-color: #16DB93;}
+
+#pg10 {background-color: #16DB93;}
 
 #pg8 h1 {font-family: 'Mystery Quest', cursive;}
 
@@ -73,22 +73,22 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    background-image: url('IMG/img1.png');
+    background-image: url('IMG/img1.jpg');
     background-size: cover;
     background-position: -10%;
-    border: solid 2px rgb(11, 20, 151);
+    border: solid 3px rgb(233, 76, 14);
     margin: 25px auto;
 }
 
 #pg2 figure {
     width: 200px;
-    height: 250px;
-    border-radius: 20%;
-    background-image: url('IMG/img2.jpeg');
+    height: 200px;
+    border-radius: 10%;
+    background-image: url('IMG/img2.jpg');
     background-size: 100%;
     background-position: 50% ;
     background-repeat: no-repeat;
-    border: solid 3px rgb(255, 255, 255);
+    border: outset 5px rgb(64, 117, 196);
     margin: 25px auto;
 }
 
@@ -96,21 +96,21 @@ a {
 #pg3 figure {
     width: 250px;
     height: 250px;
-    border-radius: 25%;
-    background-image: url('IMG/img3.jpeg');
+    border-radius: 15%;
+    background-image: url('IMG/img3.jpg');
     background-size: cover;
     background-position: -10%;
-    border: solid 2px #ccc;
+    border: groove 8px #c2b9e9;
     margin: 25px auto;
 }
 
 #pg4 figure {
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
     background-image: url('IMG/img4.jpeg');
     background-size: cover;
-    border: solid 2px rgb(255, 255, 255);
+    border: double 10px rgb(255, 255, 255);
     margin: 25px auto;
 }
 
@@ -118,19 +118,19 @@ a {
     width: 200px;
     height: 250px;
     border-radius: 5%;
-    background-image: url('IMG/img5.jpeg');
+    background-image: url('IMG/img5.jpg');
     background-size: cover;
     border: solid 2px rgb(255, 255, 255);
     margin: 25px auto;
 }
 
 #pg6 figure {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     border-radius: 15px;
-    background-image: url('IMG/img6.jpeg');
+    background-image: url('IMG/img6.jpg');
     background-size: cover;
-    border: solid 2px #555;
+    border: dashed 3px rgb(150, 126, 236);
     margin: 25px auto;
 }
 
@@ -138,7 +138,7 @@ a {
     width: 200px;
     height: 350px;
     border-radius: 10px;
-    background-image: url('IMG/img7.jpeg');
+    background-image: url('IMG/img7.jpg');
     background-size: cover;
     border: solid 2px #ccc;
     margin: 25px auto;
@@ -146,21 +146,24 @@ a {
 
 #pg8 figure {
     width: 250px;
-    height: 250px;
-    border-radius: 200px;
-    background-image: url('IMG/img8.png');
+    height: 220px;
+    border-radius: 10%;
+    background-image: url('IMG/img8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    border: double 10px #ccc;
+    border: dashed 3px #ccc;
     margin: 25px auto;
 }
 
 #pg9 figure {
-    width: 200px;
-    height: 350px;
-    border-radius: 10px;
-    background-image: url('../img/amoraProgramadora.jpeg');
+    width: 50px;
+    height: 220px;
+    border-radius: 10%;
+    background-image: url('IMG/img8.jpg');
     background-size: cover;
-    border: solid 2px #ccc;
+    background-repeat: no-repeat;
+    border: dashed 3px #ccc;
     margin: 25px auto;
 }
+
+
